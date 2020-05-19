@@ -1,0 +1,20 @@
+.productCard {
+  border: 1px solid lightgrey;
+  padding: 10px 25px;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.productCard:last-child {
+  margin-bottom: 0;
+}
+
+.primaryPrice {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.strokedPrice {
+  text-decoration: line-through;
+  color: grey;
+}

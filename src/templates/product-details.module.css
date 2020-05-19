@@ -1,0 +1,9 @@
+.primaryPrice {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+
+.strokedPrice {
+  text-decoration: line-through;
+  color: grey;
+}
