@@ -54,7 +54,9 @@ export const productQuerySingle = graphql`
     }
     contentfulProduct(slug: { eq: $slug }) {
       name
-      category
+      category {
+        name
+      }
       price
       discount
       slug

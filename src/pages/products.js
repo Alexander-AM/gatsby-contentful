@@ -43,7 +43,9 @@ export const productQuery = graphql`
         sku
         slug
         stock
-        category
+        category {
+          name
+        }
         discount
         image {
           fluid {
